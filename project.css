@@ -1,0 +1,50 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+body{
+    height: 100vh;
+    background-image: url('ravis.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inbody{
+    height:80vh;
+    background-color: rgba(223, 154, 240,.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.4rem;
+    border-radius: 2rem;
+}
+.inbody>h2{
+    color: rgb(230, 53, 53);
+}
+.inbody>h3{
+    color: aquamarine
+}
+.main{
+    height: 250px;
+    width: 250px;
+    background-image: url("rav.jpg.jpg");
+    background-size: cover;
+    border: 2px solid white;
+    border-radius: 2rem;
+}
+.heart{
+    color: whitesmoke;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    opacity: 0.7;
+    transition:all ease-in 0.4s ;
+    transform: scale(0);
+}
+.redheart{
+    color: white;
+    font-size: 25px;
+}

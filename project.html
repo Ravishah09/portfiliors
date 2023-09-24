@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="project.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="inbody">
+        <h2>INSTA LIKE </h2> 
+        <h3>Double tap to LIKE the pic</h3>
+        <div class="main">
+            <i class="fa-solid fa-heart heart"></i>
+        </div>
+        <i class="fa-solid fa-heart redheart"></i>
+        </div>
+       
+    
+        <script type="text/javascript">
+            let main_div=document.querySelector(".main");
+            let icon=document.querySelector(".heart");
+            let icon_heart=document.querySelector(".redheart");
+    
+            main_div.addEventListener("dblclick", function(){
+                console.log("addEventListener is runnin")
+                icon.style.transform="scale(4)" 
+                // icon.style.transform="scale(0)"
+               setTimeout(function off(){
+                  return  icon.style.transform="scale(0)" 
+                },1000)
+               console.log("return printed")
+               icon_heart.style.color="red"
+            })
+            icon_heart.addEventListener("click",function(){
+                 icon_heart.style.color="white"
+            })
+    
+        </script>
+    
+</body>
+</html>

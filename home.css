@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: large;
+    font-family:cursive;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.navbar {
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(62, 228, 239);
+}
+/* my image nav bar */
+.image {
+    display: flex;
+    align-items: center;
+    background-color: rgb(49, 78, 105);
+    height: 3rem;
+    width: 3rem;
+    margin-left: 1rem;
+}
+
+img {
+    height: 3rem;
+    width: 3rem;
+}
+
+.links a {
+    color: rgb(8, 8, 8);
+    padding-right: 1.5rem;
+}
+a:hover{
+    padding-left: 2px;
+    text-decoration: underline;
+}
+.pannel{
+    height: 2em;
+    display: flex;
+    align-items: center;
+    background-color: aquamarine;
+}
+.baricon{
+    font-size: larger;
+    margin-left:1rem ;
+}
+.sidebar{
+    height: 10rem;
+    width: 8rem;
+    background-color: rgb(148, 148, 216);
+    display: flex;
+    position:absolute ;
+    left: -190px;
+    flex-direction:column ;
+    padding: 1rem;
+}
+.sidebar a{
+    color: white;
+    padding-top: 0.2rem;
+} 
+/* main editing starts  */
+.main{
+    height:100vh;
+    width: full;
+    background-image:url('ravis.jpg');
+    background-size: cover;
+    background-position: left top;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    height: 80%;
+    width: 80%;
+    background-image:url('ravis.jpg');
+    background-position: right top;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+    justify-content: center;
+    color: white;
+    box-shadow: 1px 4px 20px aquamarine;
+    
+    
+}
+h1,h3{
+    padding-top: 0.8rem;
+    margin-right: 1rem;
+    font-size: 1.3rem ;
+    color: rgb(13, 146, 95);
+    text-shadow: 2px 6px 12px rgb(64, 97, 18);
+}
+#btn1{
+    margin-top:1rem ;
+    margin-right:1rem ;
+    background-color: aquamarine;
+    border-color: aquamarine;
+    box-shadow: 1px 5px 10px aquamarine ;
+}
+#btn1:hover{
+    padding-top:0.1rem;
+}
+.footer{
+    height:4rem ;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    font-weight:bold ;
+
+}
+
+/* about.html page css edit part */
+
+.aboutmain{
+    height: 100vh;
+    background-image: url('ravis.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    
+}
+.aboutmain>p,h1{
+    padding-left: 2rem;
+}
+
