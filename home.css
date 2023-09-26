@@ -1,8 +1,10 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Libre+Baskerville&display=swap');
 * {
     padding: 0;
     margin: 0;
     font-size: large;
-    font-family:cursive;
+    font-family: 'Libre Baskerville', serif;
 }
 
 a {
