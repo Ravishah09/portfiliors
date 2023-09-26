@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.pagecontent{
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.box1{
+    height: 25%;
+    width: 20%;
+    border: 1px solid;
+    margin: 0.5rem;
+    display: flex;
+     align-items: center;
+     justify-content: center;
+
+}
