@@ -3,10 +3,18 @@
     margin: 0;
     text-decoration: none;
 }
+.proheading{
+    background-color: rgb(148, 127, 255);
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .pagecontent{
     height: 100vh;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 }
@@ -32,4 +40,5 @@
      padding-left: .4rem;
 
 }
+
 
