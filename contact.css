@@ -35,3 +35,12 @@ h1,p,.icons{
     display: flex;
     justify-content: space-around;
 }
+.direction{
+    background-color:rgb(80, 80, 91);
+    color: rgb(245, 244, 244);
+    margin-top: 1.2rem;
+    padding-top: 1.2rem;
+    font-size: small;
+    text-align: center;
+    
+}

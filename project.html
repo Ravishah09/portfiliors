@@ -8,22 +8,25 @@
     <title>Document</title>
 </head>
 <body>
-
-    <div class="body">
-    <div class="inbody">
-        <h2>INSTA LIKE </h2> 
-        <h3>Double tap to LIKE the pic</h3>
+    
+    <div class="inbody"> 
         <div class="main">
             <i class="fa-solid fa-heart heart"></i>
         </div>
-        <i class="fa-solid fa-heart redheart"></i>
+        <div class="heartclick">
+            <i class="fa-solid fa-heart predheart"></i>
+            <i class="fa-regular fa-comment  redheart coment"></i>
+            <i class="fa-brands fa-telegram redheart"></i>
         </div>
-    </div>
+        <div class="input"></div>
+        </div>
     
         <script type="text/javascript">
             let main_div=document.querySelector(".main");
             let icon=document.querySelector(".heart");
-            let icon_heart=document.querySelector(".redheart");
+            let icon_heart=document.querySelector(".predheart");
+            let coment= document.querySelector(".coment");
+            let inputchld=document.querySelector('.input')
     
             main_div.addEventListener("dblclick", function(){
                 console.log("addEventListener is runnin")
@@ -37,6 +40,12 @@
             })
             icon_heart.addEventListener("click",function(){
                  icon_heart.style.color="white"
+            })
+            coment.addEventListener('click',()=>{
+                let input=document.createElement('input');
+                console.log(input ,"is input");
+                inputchld.appendChild(input)
+    
             })
     
         </script>
